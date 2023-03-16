@@ -28,6 +28,7 @@ li {
   list-style: none;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -37,16 +38,17 @@ header{
     padding-top: 4px;
     padding-bottom: 10px;
     height: 55px;
-    border-bottom: 5px solid #617143;
+    border-bottom: 5px solid #f5e1db;
+    border-radius: 5px;
 }
 
 .header-logo{
     float: left;
     padding-bottom: 8px;
     font-size: 30px;
-    border-radius: 180px;
     color: #02351d;
     text-shadow: 3px 3px 2px rgba(131, 188, 221, 0.8);
+    transition: 0.5s;
 }
 
 .header-logo:hover{
@@ -58,12 +60,54 @@ header{
     list-style: none;
     float: right;
     padding: 14px;
-    color: #367E18;
+    color: #aa711b;
 }
 
 .header-list li:active{
-    color: #A84448;
     background-color: #e6afaf;
     box-shadow: 5px;
     padding: 4px;
+}
+
+.header-list li a{
+    text-decoration: none;
+    color: #A84448;
+}
+
+.banner{
+    margin-top: 80px;
+    padding-left: 45px;
+    height: 500px;
+    position: absolute;
+}
+
+.banner-title{
+    font-size: 55px;
+    color: #E7AB9A;
+    padding-bottom: 5px;
+}
+
+.banner-image{
+    width: 25%;
+    float: left;
+}
+
+.banner-content{
+    width: 50%;
+    float: left;
+    position: relative;
+    padding-left: 24px;
+}
+
+.banner-content span{
+    color: #A84448;
+}
+
+.banner-content h4{
+    font-size: 36px;
+}
+
+.banner-content p{
+    text-indent: 8px;
+    line-height: 1.9;
 }
